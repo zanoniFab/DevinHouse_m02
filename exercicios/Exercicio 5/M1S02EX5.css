@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color: black;
+    margin:0;
+    padding: 0;
+    height: 100vh;   
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo{
+    text-transform: uppercase;
+    color: rgb(229, 9, 20);
+    font-size: 16px;
+}
+#cabecalho{
+    display: flex;
+    justify-content: end;
+    margin-left: auto; 
+}
+.tipo-botao{
+    background-color: #e50914;
+    border-radius: 3px;
+    padding: .25rem .5rem;
+    font-size: .5rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffff    
+}
+#cabecalho a,select{
+    margin: 10px;
+    font-size: 10px;
+}
+#cabecalho select{
+    width: 80px;
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    border: 1px solid #aaa;
+    text-align: start;
+}
+main{
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    flex-direction: column;
+    background: linear-gradient(90deg, #000101, #17202a);    
+}
+.top-content{
+    background-color: #000101;
+    width: 100vw;   
+}
+.top-content #first-child{
+    margin-bottom: -15px;
+}
+.top-content form{
+    margin-bottom: 10px;   
+}
+.top-content button{
+    margin-left: -5px;
+    padding: 7px;
+}
+.top-content h1, .mid-content h1, .bottom-content h1,.vantagem-content h1 {
+    font-size: 1.6rem;
+}
+.top-content h4{
+    font-size: 0.55rem;
+    font-weight:200;
+    margin-bottom: 10px;
+}
+main div {
+    border-bottom: 2px solid #2c3e50;
+}
+.mid-content, .bottom-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mid-content div, .bottom-content div{
+    border: 0;
+    padding: 20px;
+}
+.top-content h3, .mid-content h3, .bottom-content h3, .vantagem-content li{
+    font-weight:200;
+    font-size: .75rem;
+}
+.mid-content img{
+    margin-left: 50px;
+    width: 130px;
+    height: 80px;
+}
+.bottom-content img{
+    width: 160px;
+    height: 110px;
+}
+
+.vantagem-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vantagem-content ul {
+    width: 250px;  
+}
+.vantagem-content li {
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    margin-bottom: 7px;
+    background-color: #303030;
+    height: 20px;
+}
+li{
+    list-style: none;
+    text-align: left;
+}
+footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+}
+footer li{
+    margin-bottom: 8px;
+}
